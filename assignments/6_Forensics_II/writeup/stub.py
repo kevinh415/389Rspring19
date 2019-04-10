@@ -28,7 +28,7 @@ with open(sys.argv[1], 'rb') as fpff:
 magic, version = struct.unpack("<LL", data[0:counter])
 # counter is 8
 
-time, extra = struct.unpack("<LL", data[counter: counter + 8])
+time, extra = struct.unpack("<LL", date[counter: counter + 8])
 counter += 4 # counter is 12 
 
 author = ''.join(struct.unpack("<8s", data[counter: counter + 8]))
