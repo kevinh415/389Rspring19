@@ -12,10 +12,17 @@ Digital acknowledgement: Chaewoon Hong
 
 ### Part 1 (90 Pts)
 
+
+
+```c
+
 int main()
 {
+
+
     int a;
     int b;
+    
     b = 0x1ceb00da;
     a = 0xfeedface;
     
@@ -31,6 +38,8 @@ int main()
     
     return 0;
 }
+
+```
 
 ### Part 2 (10 Pts)
 
