@@ -19,7 +19,7 @@ The flag was CMSC389R-{y0u_ar3_th3_SQ1_ninj@}.
 
 Level 1: I added <script>alert()</script> into the url. 
 
-Level 2: I noticed that when i added a '<h1>' element, the text behaved according to the h1 element, so I added a onerror=alert() into the h1 tag. 
+Level 2: I noticed that when i added a h1 element, the text behaved according to the h1 element, so I added a onerror=alert() into the h1 tag. 
 
 Level 3: I noticed the URL could be injected so I added a 'onerror='alert(1)'; to the URL.
 
